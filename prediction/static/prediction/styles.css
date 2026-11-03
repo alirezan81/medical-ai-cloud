@@ -1,3 +1,28 @@
+
+@font-face {
+    font-family: "Modam";
+    src:  url("./fonts/ModamFaNumWeb-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Modam";
+    src:  url("./fonts/ModamFaNumWeb-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Modam";
+    src:  url("./fonts/ModamFaNumWeb-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --ink: #183044;
@@ -15,7 +40,7 @@ body {
   margin: 0;
   background: radial-gradient(circle at 85% 0%, #d8f0ed 0, transparent 34rem), var(--canvas);
   color: var(--ink);
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: Modam, sans-serif;
   line-height: 1.8;
 }
 .page-shell { width: min(100% - 2rem, 960px); margin: 0 auto; padding: 3rem 0 2rem; }
