@@ -6,4 +6,5 @@ app_name = 'prediction'
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('diabetes/', views.diabetes, name='diabetes'),
 ]

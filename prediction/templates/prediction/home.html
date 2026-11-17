@@ -10,6 +10,10 @@
 </head>
 <body>
   <main class="page-shell">
+    <nav class="model-nav" aria-label="انتخاب مدل">
+      <a class="active" href="{% url 'prediction:home' %}" aria-current="page">پیش‌بینی بیماری قلبی</a>
+      <a href="{% url 'prediction:diabetes' %}">پیش‌بینی خطر دیابت</a>
+    </nav>
     <header class="hero">
       <span class="eyebrow">پروژه محاسبات ابری</span>
       <h1>ارزیابی سلامت قلب</h1>
